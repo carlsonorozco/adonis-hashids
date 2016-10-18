@@ -102,8 +102,6 @@ Hashids.decode('wzs9cr');
 // Initialize
 const Hashids = use('Hashids')
 
-Hashids.encodeHex(1, 2, 3)
-// or Array parameters
 Hashids.encode('507f1f77bcf86cd799439011')
 // Nrao6rxKbziryRrXR1zD
 
