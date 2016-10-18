@@ -1,6 +1,6 @@
 {
   "name": "adonis-hashids",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Hashids Provider for AdonisJs framework",
   "homepage": "https://github.com/carlsonorozco/adonis-hashids",
   "license": "MIT",
