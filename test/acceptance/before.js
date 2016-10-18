@@ -21,7 +21,7 @@ module.exports = done => {
   fold.Registrar
     .register(providers)
     .then(() => {
-      fold.Ioc.aliases({ Hashids: 'Adonis/Addons/HashidsProvider' })
+      fold.Ioc.aliases({ Hashids: 'Adonis/Addons/Hashids' })
 
       fold.Ioc.fake('Adonis/Src/Config', () => {
         return {
