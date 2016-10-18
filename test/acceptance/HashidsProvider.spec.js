@@ -9,12 +9,15 @@
  * file that was distributed with this source code.
 */
 
+/* eslint-env mocha */
+
 const assert = require('chai').assert
 const fold = require('adonis-fold')
 require('co-mocha')
-require('./before')
 
 describe('Acceptance | HashidsProvider', () => {
+  before(require('./before'))
+
   describe('Ioc registration', () => {
     it('should be able to resolve/use Hashids', () => {
       assert(fold.Ioc.use('Hashids'))
