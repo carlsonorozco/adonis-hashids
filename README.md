@@ -17,6 +17,19 @@ In order to use adonis-hashids
 npm install adonis-hashids --save
 ```
 
+## Setup
+
+Once you have installed the provider from the [npm](https://npmjs.org/packages/adonis-hashids), make sure to follow the below steps to setup the provider.
+
+##### bootstrap/app.js
+
+```javascript
+const providers = [
+  ...,
+  'adonis-hashids/providers/HashidsProvider'
+]
+```
+
 Also, for registering commands.
 
 ##### bootstrap/app.js
@@ -75,7 +88,7 @@ Hashids.decode('OY');
 const Hashids = use('Hashids')
 
 Hashids.encode(1, 2, 3)
-// or Array parameters
+// or Array
 Hashids.encode([1, 2, 3])
 // will ouput wzs9cr
 
