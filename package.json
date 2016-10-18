@@ -1,0 +1,46 @@
+{
+  "name": "adonis-hashids",
+  "version": "0.0.1",
+  "description": "Hashids Provider for AdonisJs framework",
+  "homepage": "https://github.com/carlsonorozco/adonis-hashids",
+  "license": "MIT",
+  "author": "Carlson Orozco <carlsonorozco@gmail.com>",
+  "scripts": {
+    "lint": "standard src/**/*.js test/**/*.js providers/*.js",
+    "test": "standard && node ./node_modules/mocha/bin/mocha --recursive --harmony_proxies"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlsonorozco/adonis-hashids.git"
+  },
+  "devDependencies": {
+    "adonis-fold": "^3.0.3",
+    "chai": "^3.5.0",
+    "co-mocha": "^1.1.3",
+    "mocha": "^3.1.2",
+    "standard": "^8.4.0"
+  },
+  "keywords": [
+    "adonis",
+    "adonis-framework",
+    "hashids",
+    "hash",
+    "youtube",
+    "bitly",
+    "obfuscate",
+    "encode",
+    "decode",
+    "encrypt",
+    "decrypt"
+  ],
+  "standard": {
+    "globals": [
+      "describe",
+      "it"
+    ]
+  },
+  "dependencies": {
+    "hashids": "^1.1.1",
+    "node-exceptions": "^1.0.3"
+  }
+}
