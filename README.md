@@ -62,9 +62,9 @@ Then, for generating a config file.
 
 ## Configuration
 
-AdonisHashids generate YouTube-like ids from numbers. Use Hashids when you do not want to expose your database ids to the user. The hashids configuration is located at `config/hashids.js`. In this file you may specify which hashids connection you would like used by default throughout your application.
+Adonis Hashids generate YouTube-like ids from numbers. Use Hashids when you do not want to expose your database ids to the user. The hashids configuration is located at `config/hashids.js`. In this file you may specify which hashids connection you would like used by default throughout your application.
 
-The hashids configuration file also contains various other options, which are documented within the file so make sure to read over these options. By defaault AdonisHashids is configured to use the `default` connection.
+The hashids configuration file also contains various other options, which are documented within the file so make sure to read over these options. By default Adonis Hashids is configured to use the `default` connection.
 
 ## Usage
 
