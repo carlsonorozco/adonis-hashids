@@ -7,7 +7,7 @@
 [![devDependencies Status](https://david-dm.org/carlsonorozco/adonis-hashids/dev-status.svg)](https://david-dm.org/carlsonorozco/adonis-hashids?type=dev)
 [![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
-Hashids Provider for AdonisJs framework.
+[Hashids](https://github.com/ivanakimov/hashids.js) Provider for AdonisJs framework.
 
 ## Installation
 
