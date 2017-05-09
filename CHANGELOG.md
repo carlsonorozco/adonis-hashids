@@ -1,5 +1,8 @@
 # adonis-hashids Changelog
 
+## 0.0.4
+ - Update vendor library
+
 ## 0.0.3
  - Update readme file add hashid.js link
 
