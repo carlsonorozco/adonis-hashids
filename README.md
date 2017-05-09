@@ -77,7 +77,7 @@ const Hashids = use('Hashids')
 Hashids.encode(1)
 // OY
 
-Hashids.decode('OY');
+Hashids.decode('OY')
 // [ 1 ]
 ```
 
@@ -92,7 +92,7 @@ Hashids.encode(1, 2, 3)
 Hashids.encode([1, 2, 3])
 // will ouput wzs9cr
 
-Hashids.decode('wzs9cr');
+Hashids.decode('wzs9cr')
 // [ 1, 2, 3 ]
 ```
 
@@ -105,7 +105,7 @@ const Hashids = use('Hashids')
 Hashids.encodeHex('507f1f77bcf86cd799439011')
 // Nrao6rxKbziryRrXR1zD
 
-Hashids.decodeHex('Nrao6rxKbziryRrXR1zD');
+Hashids.decodeHex('Nrao6rxKbziryRrXR1zD')
 // 507f1f77bcf86cd799439011
 ```
 
@@ -118,7 +118,7 @@ const Hashids = use('Hashids')
 Hashids.connection('alternative').encode(1)
 // OY
 
-Hashids.connection('alternative').decode('OY');
+Hashids.connection('alternative').decode('OY')
 // [ 1 ]
 ```
 
