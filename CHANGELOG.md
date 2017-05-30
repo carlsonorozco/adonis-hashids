@@ -1,5 +1,8 @@
 # adonis-hashids Changelog
 
+## 0.0.5
+ - Update Dev Dependencies and Linting
+
 ## 0.0.4
  - Update vendor library
 
