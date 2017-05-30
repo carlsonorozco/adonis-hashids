@@ -1,5 +1,7 @@
 # adonis-hashids
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/carlsonorozco/adonis-hashids.svg)](https://greenkeeper.io/)
+
 [![npm version](https://badge.fury.io/js/adonis-hashids.svg)](https://badge.fury.io/js/adonis-hashids)
 [![npm](https://img.shields.io/npm/dt/adonis-hashids.svg)](https://www.npmjs.com/package/adonis-hashids)
 [![Build Status](https://travis-ci.org/carlsonorozco/adonis-hashids.svg?branch=master)](https://travis-ci.org/carlsonorozco/adonis-hashids)

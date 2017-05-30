@@ -15,10 +15,10 @@
   },
   "devDependencies": {
     "adonis-fold": "^3.0.3",
-    "chai": "^3.5.0",
+    "chai": "^4.0.0",
     "co-mocha": "^1.2.0",
     "mocha": "^3.3.0",
-    "standard": "^8.6.0"
+    "standard": "^10.0.2"
   },
   "keywords": [
     "adonis",
