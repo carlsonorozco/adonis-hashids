@@ -12,7 +12,6 @@
 const ServiceProvider = require('adonis-fold').ServiceProvider
 
 class CommandsProvider extends ServiceProvider {
-
   * register () {
     this.app.bind(`Adonis/Commands/Hashids:Config`, (app) => {
       const Helpers = app.use('Adonis/Src/Helpers')

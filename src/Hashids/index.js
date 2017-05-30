@@ -14,7 +14,6 @@ const proxyHandler = require('./proxyHandler')
 const HashidsInstance = require('hashids')
 
 class Hashids {
-
   /**
    * Create a new hashids instance.
    *
@@ -80,7 +79,6 @@ class Hashids {
     connection = connection || 'default'
     return this._getConnection(connection)
   }
-
 }
 
 module.exports = Hashids

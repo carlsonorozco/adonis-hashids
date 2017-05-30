@@ -12,7 +12,6 @@
 const ServiceProvider = require('adonis-fold').ServiceProvider
 
 class HashidsProvider extends ServiceProvider {
-
   * register () {
     this.app.singleton('Adonis/Addons/Hashids', function (app) {
       const Config = app.use('Adonis/Src/Config')
@@ -20,7 +19,6 @@ class HashidsProvider extends ServiceProvider {
       return new Hashids(Config)
     })
   }
-
 }
 
 module.exports = HashidsProvider

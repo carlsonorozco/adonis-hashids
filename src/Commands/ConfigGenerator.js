@@ -13,7 +13,6 @@ const BaseGenerator = require('../../../adonis-commands/src/Generators/Base')
 const path = require('path')
 
 class ConfigGenerator extends BaseGenerator {
-
   /**
    * makes path to a given template
    * @param  {String} template
