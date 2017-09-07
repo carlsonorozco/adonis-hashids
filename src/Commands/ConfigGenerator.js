@@ -31,7 +31,7 @@ class ConfigGenerator extends BaseGenerator {
    * @public
    */
   get signature () {
-    return `hashids:config`
+    return 'hashids:config'
   }
 
   /**
@@ -52,12 +52,12 @@ class ConfigGenerator extends BaseGenerator {
    *
    * @public
    */
-  * handle (args, options) {
-    const toPath = this.helpers.configPath(`hashids.js`)
+  async handle (args, options) {
+    const toPath = this.helpers.configPath('hashids.js')
     const template = 'config'
     const templateOptions = {}
 
-    yield this._wrapWrite(template, toPath, templateOptions)
+    await this._wrapWrite(template, toPath, templateOptions)
   }
 }
 

@@ -1,5 +1,8 @@
 # adonis-hashids Changelog
 
+## 0.0.6
+ - Add SonarQube
+
 ## 0.0.5
  - Update Dev Dependencies and Linting
 
