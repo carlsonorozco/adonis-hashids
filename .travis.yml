@@ -1,9 +1,24 @@
+sudo: required
+
 language: node_js
 
 node_js:
 - node
 
-sudo: false
+sudo: required
+
+addons:
+  sonarcloud:
+    organization: "carlsonorozco-github"
+    token:
+      secure: "KB2xy9TPn883rDJY1UQ5iglpZvgb1DCR71PmkpEv1j9q+f3osO0PZWeqtOOX7gCpatqAbZZ9jL186GvHSz8bbwDioems6nJIdCh5M8x3Pk4vGeE6E1baZSEiYJ5nffVgUNQe9igCnbniNboksiIsp1XHNG1l56vT2l61Eo+RKJ74DlAfuHJX0wYbBLJBU5+9ky418zohvAPF3zQqWzh7JZMGIuripY3e0VZgsJvcAPWznD4dAr3iEplL1QjvCkvhsLmtXzwCANpz5F8110nITtg9MrbDSv4HsjCn0WSXpIRf6J6khucuQ5AYIovjVWGrSF3kuRNT3RU7By8C9Li5sJ9AxwQbiqpcN2lxwxDpeiCvqnZU7h0dl5hB3K+Qos8T1xESgPpxVUH0CTELzeWDWm5wNzrRcK91JBiyS0H4V0VhBhmbk1FxlgG6o/eGkqqwIeao5MTQAUF08zfCXrX5tLtPsXz/eqK02gCP3B+hcV7ZUJbFoZkY6M/RyPcEeFdDWSfdO/+ifQ+jBslUwRCmr7Iviwbf8xlS2NAo9+/OZl5/r7yd1NZETX2KM2voMoNHYPRVruOQwaKyXinIf1JbYRYpRbmV+I1ulE5l5u8+VO8Mmz+K5Ep1w4sAZMpPlBg81Pvb0U7Ks+A7Ib0jhfPsBZNFHiOpXtK5bFitO42QGJc="
 
 install:
 - npm install
+
+script:
+  - sonar-scanner
+
+cache:
+  directories:
+    - '$HOME/.sonar/cache'
