@@ -1,5 +1,9 @@
 # adonis-hashids Changelog
 
+## 1.0.0
+ - Support AdonisJS 4.0
+ - Add some tests
+
 ## 0.0.6
  - Add SonarQube
 
