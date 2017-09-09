@@ -15,6 +15,7 @@ addons:
       - master
       - develop
 script:
+- npm test
 - sonar-scanner
 cache:
   directories:
