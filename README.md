@@ -1,4 +1,4 @@
-# Adonis Hashids :hash:
+# AdonisJS Hashids :hash:
 
 Adonis Hashids is a [Hashids](https://github.com/ivanakimov/hashids.js) Provider for AdonisJs framework.
 
