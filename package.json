@@ -4,7 +4,7 @@
   "description": "Hashids Provider for AdonisJs framework",
   "homepage": "https://github.com/carlsonorozco/adonis-hashids",
   "bugs": {
-    "url": "https://github.com/adonisjs/adonis-framework/issues"
+    "url": "https://github.com/carlsonorozco/adonis-hashids/issues"
   },
   "license": "MIT",
   "author": "Carlson Orozco <carlsonorozco@gmail.com>",
