@@ -49,6 +49,11 @@
     "encrypt",
     "decrypt"
   ],
+  "standard": {
+    "globals": [
+      "use"
+    ]
+  },
   "nyc": {
     "exclude": [
       "bin"
