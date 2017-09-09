@@ -9,15 +9,23 @@
  * file that was distributed with this source code.
 */
 
-const ServiceProvider = require('adonis-fold').ServiceProvider
+const { ServiceProvider } = require('@adonisjs/fold')
 
 class HashidsProvider extends ServiceProvider {
-  async register () {
-    await this.app.singleton('Adonis/Addons/Hashids', app => {
+  /**
+   * Register all the required providers
+   *
+   * @method register
+   *
+   * @return {void}
+   */
+  register () {
+    this.app.singleton('Adonis/Addons/Hashids', app => {
       const Config = app.use('Adonis/Src/Config')
       const Hashids = require('../src/Hashids')
       return new Hashids(Config)
     })
+    this.app.alias('Adonis/Addons/Hashids', 'Hashids')
   }
 }
 
