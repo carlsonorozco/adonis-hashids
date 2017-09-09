@@ -110,4 +110,4 @@ Thanks to the community of [AdonisJs](http://www.adonisjs.com/).
 
 ## Copyright and License
 
-Copyright (c) 2016 [Carlson Orozco](http://carlsonorozco.com/), [MIT](LICENSE.md) License
+Copyright (c) 2017 [Carlson Orozco](http://carlsonorozco.com/), [MIT](LICENSE.md) License
