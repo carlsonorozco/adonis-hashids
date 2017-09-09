@@ -1,4 +1,6 @@
-# adonis-hashids
+# Adonis Hashids :hash:
+
+Adonis Hashids is a [Hashids](https://github.com/ivanakimov/hashids.js) Provider for AdonisJs framework.
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/carlsonorozco/adonis-hashids.svg)](https://greenkeeper.io/)
 [![Quality Gate](https://sonarqube.com/api/badges/gate?key=adonis-hashids)](https://sonarqube.com/dashboard/index/adonis-hashids)
@@ -10,58 +12,31 @@
 [![devDependencies Status](https://david-dm.org/carlsonorozco/adonis-hashids/dev-status.svg)](https://david-dm.org/carlsonorozco/adonis-hashids?type=dev)
 [![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
-[Hashids](https://github.com/ivanakimov/hashids.js) Provider for AdonisJs framework.
+<img src="http://res.cloudinary.com/adonisjs/image/upload/q_100/v1497112678/adonis-purple_pzkmzt.svg" width="200px" align="right" hspace="30px" vspace="100px">
+
+## Node/OS Target
+
+This repo/branch is supposed to run fine on all major OS platforms and targets `Node.js >=7.0`
 
 ## Installation
 
 In order to use adonis-hashids
 
 ```
-npm install adonis-hashids --save
+adonis install adonis-hashids
 ```
 
-## Setup
+## Registering provider
 
-Once you have installed the provider from the [npm](https://npmjs.org/packages/adonis-hashids), make sure to follow the below steps to setup the provider.
+Make sure you register the provider inside `start/app.js` file before making use hashids.
 
-##### bootstrap/app.js
-
-```javascript
+```js
 const providers = [
-  ...,
   'adonis-hashids/providers/HashidsProvider'
 ]
 ```
 
-Also, for registering commands.
-
-##### bootstrap/app.js
-```javascript
-const aceProviders = [
-  ...,
-  'adonis-hashids/providers/CommandsProvider'
-]
-
-const commands = [
-  ...,
-  'Adonis/Commands/Hashids:Config'
-]
-```
-
-Also, it is a good practice to setup an alias to avoid typing the complete namespace.
-
-##### bootstrap/app.js
-```javascript
-const aliases = {
-  ...,
-  Hashids: 'Adonis/Addons/Hashids'
-}
-```
-
-Then, for generating a config file.
-```bash
-./ace hashids:config
-```
+That's all! Now you can use the hashids provider as follows.
 
 ## Configuration
 
