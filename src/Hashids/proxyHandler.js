@@ -21,9 +21,20 @@ const proxyHandler = exports = module.exports = {}
  * @return {Mixed}
  * @public
  */
-proxyHandler.get = function (target, name) {
-  if (target[name]) {
+proxyHandler.get = (target, name) => {
+  /**
+   * Node.js inspecting target
+   */
+  if (typeof (name) === 'symbol' || name === 'inspect') {
     return target[name]
   }
-  return target.connection('default')[name]
+
+  /**
+   * Property exists on target
+   */
+  if (typeof (target[name]) !== 'undefined') {
+    return target[name]
+  }
+
+  return target.connection()[name]
 }
