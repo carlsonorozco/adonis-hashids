@@ -1,5 +1,8 @@
 # adonis-hashids Changelog
 
+## 1.0.2
+ - Update packages
+
 ## 1.0.1
  - Fix SonarQube settings
  - Fix Coveralls
