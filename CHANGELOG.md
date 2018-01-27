@@ -1,5 +1,8 @@
 # adonis-hashids Changelog
 
+## 1.0.3
+ - Update packages
+
 ## 1.0.2
  - Update packages
 
