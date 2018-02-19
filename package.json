@@ -30,7 +30,7 @@
     "japa-cli": "^1.0.1",
     "nyc": "^11.4.1",
     "snyk": "^1.62.3",
-    "standard": "^10.0.3"
+    "standard": "^11.0.0"
   },
   "dependencies": {
     "@adonisjs/generic-exceptions": "^2.0.0",
