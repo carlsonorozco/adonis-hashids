@@ -13,12 +13,13 @@ Adonis Hashids is a [Hashids](https://github.com/ivanakimov/hashids.js) Provider
 [![dependencies Status](https://david-dm.org/carlsonorozco/adonis-hashids/status.svg)](https://david-dm.org/carlsonorozco/adonis-hashids)
 [![devDependencies Status](https://david-dm.org/carlsonorozco/adonis-hashids/dev-status.svg)](https://david-dm.org/carlsonorozco/adonis-hashids?type=dev)
 [![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcarlsonorozco%2Fadonis-hashids.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcarlsonorozco%2Fadonis-hashids?ref=badge_shield)
 
 <img src="http://res.cloudinary.com/adonisjs/image/upload/q_100/v1497112678/adonis-purple_pzkmzt.svg" width="200px" align="right" hspace="30px" vspace="100px">
 
 ## Node/OS Target
 
-This repo/branch is supposed to run fine on all major OS platforms and targets `Node.js >=7.0`
+This repo/branch is supposed to run fine on all major OS platforms and targets `Node.js >=8.0`
 
 ## Installation
 
@@ -38,4 +39,6 @@ Thanks to the community of [AdonisJs](http://www.adonisjs.com/).
 
 ## Copyright and License
 
-Copyright (c) 2017 [Carlson Orozco](http://carlsonorozco.com/), [MIT](LICENSE.md) License
+Copyright (c) 2018 [Carlson Orozco](http://carlsonorozco.com/), [MIT](LICENSE.md) License
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcarlsonorozco%2Fadonis-hashids.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcarlsonorozco%2Fadonis-hashids?ref=badge_large)

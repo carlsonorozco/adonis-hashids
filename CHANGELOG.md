@@ -1,5 +1,9 @@
 # adonis-hashids Changelog
 
+## 1.0.4
+ - Update packages
+ - Add FOSSA
+
 ## 1.0.3
  - Update packages
 
