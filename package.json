@@ -1,6 +1,6 @@
 {
   "name": "adonis-hashids",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Hashids Provider for AdonisJs framework",
   "homepage": "https://github.com/carlsonorozco/adonis-hashids",
   "bugs": {
@@ -22,15 +22,15 @@
     "url": "git+https://github.com/carlsonorozco/adonis-hashids.git"
   },
   "devDependencies": {
-    "@adonisjs/fold": "^4.0.5",
-    "@adonisjs/sink": "^1.0.13",
+    "@adonisjs/fold": "^4.0.7",
+    "@adonisjs/sink": "^1.0.16",
     "coveralls": "^3.0.0",
     "cz-conventional-changelog": "^2.1.0",
     "japa": "^1.0.6",
     "japa-cli": "^1.0.1",
-    "nyc": "^11.4.1",
-    "snyk": "^1.62.3",
-    "standard": "^10.0.3"
+    "nyc": "^11.6.0",
+    "snyk": "^1.70.3",
+    "standard": "^11.0.1"
   },
   "dependencies": {
     "@adonisjs/generic-exceptions": "^2.0.0",
