@@ -22,19 +22,19 @@
     "url": "git+https://github.com/carlsonorozco/adonis-hashids.git"
   },
   "devDependencies": {
-    "@adonisjs/fold": "^4.0.7",
-    "@adonisjs/sink": "^1.0.16",
-    "coveralls": "^3.0.0",
+    "@adonisjs/fold": "^4.0.9",
+    "@adonisjs/sink": "^1.0.17",
+    "coveralls": "^3.0.2",
     "cz-conventional-changelog": "^2.1.0",
     "japa": "^1.0.6",
     "japa-cli": "^1.0.1",
-    "nyc": "^11.6.0",
-    "snyk": "^1.70.3",
-    "standard": "^11.0.1"
+    "nyc": "^13.1.0",
+    "snyk": "^1.117.1",
+    "standard": "^12.0.1"
   },
   "dependencies": {
-    "@adonisjs/generic-exceptions": "^2.0.0",
-    "hashids": "^1.1.4"
+    "@adonisjs/generic-exceptions": "^3.0.1",
+    "hashids": "^1.2.2"
   },
   "keywords": [
     "adonisjs",
