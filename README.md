@@ -19,7 +19,7 @@ Adonis Hashids is a [Hashids](https://github.com/ivanakimov/hashids.js) Provider
 
 ## Node/OS Target
 
-This repo/branch is supposed to run fine on all major OS platforms and targets `Node.js >=8.0`
+This repo/branch is supposed to run fine on all major OS platforms and targets `Node.js >=10.0`
 
 ## Installation
 
@@ -39,6 +39,6 @@ Thanks to the community of [AdonisJs](http://www.adonisjs.com/).
 
 ## Copyright and License
 
-Copyright (c) 2018 [Carlson Orozco](http://carlsonorozco.com/), [MIT](LICENSE.md) License
+Copyright (c) 2016-2019 [Carlson Orozco](http://carlsonorozco.com/), [MIT](LICENSE.md) License
 
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcarlsonorozco%2Fadonis-hashids.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcarlsonorozco%2Fadonis-hashids?ref=badge_large)
