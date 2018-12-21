@@ -26,6 +26,11 @@ class HashidsProvider extends ServiceProvider {
       return new Hashids(Config)
     })
     this.app.alias('Adonis/Addons/Hashids', 'Hashids')
+
+    this.app.singleton('Adonis/Middleware/Hashid', app => {
+      const Hashid = require('../src/Middleware/Hashid')
+      return new Hashid(app.use('Adonis/Addons/Hashids'))
+    })
   }
 }
 

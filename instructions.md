@@ -10,6 +10,27 @@ const providers = [
 
 Once that done you can make use of Hashids anywhere by importing the Hashids provider.
 
+## Register named middleware
+
+The named middleware is used to automatically decode the ID in route params by applying the middleware on them and is registered within the same `start/kernel.js` file.
+
+```js
+const namedMiddleware = {
+  ...,
+  hashid: 'Adonis/Middleware/Hashid'
+}
+```
+
+Once done, you are ready to use in your routes.
+
+```js
+Route.get('api/users/:id', ({ params, response }) => {
+  return response.send({ id: params.id })
+}).middleware(['hashid'])
+```
+
+And then access the `/api/users/<ENCODED_ID>` in your browser, and you will get the real ID.
+
 ## Usage
 
 ### Using default connection
