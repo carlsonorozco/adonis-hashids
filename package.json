@@ -34,7 +34,7 @@
   },
   "dependencies": {
     "@adonisjs/generic-exceptions": "^3.0.1",
-    "hashids": "^1.2.2"
+    "hashids": "^2.0.1"
   },
   "keywords": [
     "adonisjs",
